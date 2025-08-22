@@ -26,7 +26,8 @@ pairs = {
     "MYR to CNY": "MYRCNY=X",
     "MYR to SGD": "MYRSGD=X",
     "MYR to USD": "MYRUSD=X",
-    "MYR to TWD": "MYRTWD=X"
+    "MYR to TWD": "MYRTWD=X",
+    "MYR to THB": "MYRTHB=X"
 }
 
 # =========================================
