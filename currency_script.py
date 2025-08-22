@@ -1,14 +1,16 @@
 import yfinance as yf
 import requests
 import datetime
-import os
-from dotenv import load_dotenv
 
-load_dotenv()  # load from .env
+# =========================================
+# 🔹 Telegram bot setup
+# =========================================
+import os
 
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 GROUP_ID = os.getenv("GROUP_ID")
+
 
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
